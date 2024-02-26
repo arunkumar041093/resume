@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { StartWrapper } from "../hoc";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -44,11 +44,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’ve spent the past 7 years safeguarding software quality as a Quality
+        Assurance Engineer. It’s been an immensely rewarding journey, honing my
+        analytical skills, dissecting complex systems, and collaborating with
+        developers to deliver polished products. My meticulous attention to
+        detail, relentless problem-solving spirit, and unwavering commitment to
+        quality are assets I would bring to every line of code I write. I am
+        adept at collaborating with cross-functional teams, translating business
+        requirements into effective test cases, and implementing automation
+        strategies that enhance efficiency and reduce time-to-market.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -60,4 +64,4 @@ const About = () => {
   );
 };
 
-export default StartWrapper(About, "about");
+export default SectionWrapper(About, "about");
