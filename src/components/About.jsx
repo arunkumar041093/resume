@@ -44,15 +44,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I’ve spent the past 7 years safeguarding software quality as a Quality
-        Assurance Engineer. It’s been an immensely rewarding journey, honing my
-        analytical skills, dissecting complex systems, and collaborating with
-        developers to deliver polished products. My meticulous attention to
-        detail, relentless problem-solving spirit, and unwavering commitment to
-        quality are assets I would bring to every line of code I write. I am
-        adept at collaborating with cross-functional teams, translating business
-        requirements into effective test cases, and implementing automation
-        strategies that enhance efficiency and reduce time-to-market.
+        Leveraging 5+ years in QA, my problem-solving skills and strong
+        foundation in programming languages like JavaScript, HTML, and CSS
+        (developed through personal projects) to transition into a software
+        engineering role. While my experience lies in QA, the analytical nature
+        of testing and the scripting skills I've acquired are valuable assets in
+        development as well. I'm highly motivated to continuously learn and grow
+        technically, with the goal of becoming a Senior Software Developer
+        within 5 years.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
